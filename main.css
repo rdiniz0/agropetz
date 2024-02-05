@@ -174,7 +174,17 @@ h2{
 }
 @media screen and (max-width: 1024px) {
     header {
-        padding: 0 .5rem;
+        padding: 1rem;
+    }
+    header .container {
+        flex-direction: column;
+    }
+    nav {
+        display: flex;
+        flex-direction: column;
+    }
+    .pesquisa {
+        width: 100%;
     }
     .container {
         max-width: 100%;
