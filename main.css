@@ -1,0 +1,138 @@
+.container{
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+}
+header{
+    background-color: rgb(255, 136, 0);
+}
+body{
+    background-color: rgba(255, 255, 255, 0.842);
+    font-family: 'Roboto', sans-serif;
+    margin: auto;
+    color: rgb(0, 0, 0);
+    
+}
+#inicio{
+    justify-content: center;
+    display: flex;
+    gap: 3rem;
+}
+h1{
+    font-size: 40px;
+}
+nav a {
+    text-decoration: none;
+    color: #f1f1f1;
+    padding: 0.5rem 1rem;
+    /* background: rgba(255,255,255, 0.1); */
+    border-radius: 3px;
+    transition: all 0.1s ease;
+}
+nav a:hover {
+    color: #ff8800;
+    background: rgba(255,255,255, 0.8);
+}
+main{
+    padding: 10px;
+}
+footer{
+    background-color: rgb(255, 136, 0);
+    padding:10px;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+    align-content: center;
+}
+li{
+    padding-top: 9px;
+}
+.aplicações{
+    justify-content: center;
+    max-width: 500px;
+    margin: 0 auto;
+}
+.texto{
+    padding-left: 200px;
+    padding-right:200px ;
+    text-align: center;
+    color: #f1f1f1;
+}
+h2{
+    text-align: center;
+    padding-top: 10px;
+    font-size: 25px;
+    max-width: 500px;
+    margin: 0 auto;
+}
+.pesquisa{
+    padding: 13px 24px 13px 48px;
+    line-height: 24px;
+    font-size: 17px;
+    border: 2px solid transparent;
+    border-radius: 30px;
+    height: auto;
+}
+
+.duvidas{
+    max-width: 500px;
+    margin: 0 auto;
+}
+.center {
+    text-align: center;
+}
+.shop{
+    display: flex;
+    justify-content: center;
+    gap: 3rem;
+    
+}
+.produtos{
+    text-align: center;
+    margin-bottom: 40px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    transition: all 0.3s ease-in-out;
+    padding: 1rem;
+    box-shadow: 0 5px 8px #dbdbdb, 0 15px 20px #f1f1f1;
+}
+.shop :hover{
+    background: rgba(63, 62, 62, 0.486);
+}
+.banhos{
+    display: flex;
+    justify-content: center;
+    gap: 3rem;
+}
+.assinatura:hover{
+    background:  rgba(63, 62, 62, 0.486);
+}
+.assinatura{
+    text-align: center;
+    margin-bottom: 40px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    transition: all 0.3s ease-in-out;
+    padding: 1rem;
+    box-shadow: 0 5px 8px #dbdbdb, 0 15px 20px #f1f1f1;   
+}
+.assinatura strong{
+    color: rgb(81, 81, 241);
+    font-size: 30px;
+}
+.icon{
+    position: fixed;
+    bottom: 65px;
+    right: 30px;
+    font-size: 30px;
+    /*background-color: #acacacab ;*/
+    color: white;
+    border-radius: 50%;
+    padding: 10px;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    text-decoration: none;
+}
