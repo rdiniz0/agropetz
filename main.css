@@ -15,11 +15,7 @@ body{
     color: rgb(0, 0, 0);
     
 }
-#inicio{
-    justify-content: center;
-    /* display: flex; */
-    gap: 3rem;
-}
+
 h1{
     font-size: 40px;
 }
@@ -96,6 +92,7 @@ h2{
     
 }
 .produtos{
+    
     text-align: center;
     margin-bottom: 40px;
     border: 1px solid #ddd;
@@ -124,11 +121,13 @@ h2{
     overflow: hidden;
     transition: all 0.3s ease-in-out;
     padding: 1rem;
-    box-shadow: 0 5px 8px #dbdbdb, 0 15px 20px #f1f1f1;   
+    box-shadow: 0 5px 8px #dbdbdb, 0 15px 20px #f1f1f1;  
+    
 }
 .assinatura strong{
     color: rgb(81, 81, 241);
     font-size: 30px;
+    
 }
 .icon{
     position: fixed;
@@ -172,6 +171,7 @@ h2{
 .hide-mobile {
     display: show;
 }
+/* MOBILE */
 @media screen and (max-width: 1024px) {
     header {
         padding: 1rem;
@@ -197,5 +197,13 @@ h2{
     }
     .hide-mobile {
         display: none;
+    }
+    .banhos{
+        display: flex;
+        flex-direction: column; 
+    }
+    .shop{
+        display: flex;
+        flex-direction: column; 
     }
 }
