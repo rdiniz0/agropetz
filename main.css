@@ -91,6 +91,9 @@ h2{
     gap: 3rem;
     
 }
+.produtos:hover{
+    background: rgba(63, 62, 62, 0.486);
+}
 .produtos{
     
     text-align: center;
@@ -101,9 +104,6 @@ h2{
     transition: all 0.3s ease-in-out;
     padding: 1rem;
     box-shadow: 0 5px 8px #dbdbdb, 0 15px 20px #f1f1f1;
-}
-.shop :hover{
-    background: rgba(63, 62, 62, 0.486);
 }
 .banhos{
     display: flex;
